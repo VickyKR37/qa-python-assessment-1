@@ -163,9 +163,12 @@ def four(input):
 	# You may need to create a list of numbers from 0 to i, take a look at help(range).
 
 def five(input):
-    for number in input:  
-        range(len[-1:)
-	return 1
+    x = range(len(input[-1:]))
+    for number in input: 
+        	for number in x:
+            	number * x 
+        
+	return 
 
 #------------------------------------------------------------------------------------------------------------------------------------------------------------------ 
 
