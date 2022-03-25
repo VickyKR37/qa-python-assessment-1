@@ -36,12 +36,12 @@ def test_four():
 #     assert python1.five(6) == 720
 #     assert python1.five(8) == 40320
 
-# def test_six():
-#     assert python1.six("The",2,"h") == True
-#     assert python1.six("AAbb",1,"b") == False
-#     assert python1.six("Hi-There",10,"e") == False
-#     assert python1.six("HEY",2,"e") == True
-#     assert python1.six("on-premise",3,"-") == True
+def test_six():
+    assert python1.six("The",2,"h") == True
+    assert python1.six("AAbb",1,"b") == False
+    assert python1.six("Hi-There",10,"e") == False
+    assert python1.six("HEY",2,"e") == True
+    assert python1.six("on-premise",3,"-") == True
 
 # def test_seven():
 #     assert python1.seven("This is a Sentence","s") == 4

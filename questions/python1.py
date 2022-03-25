@@ -162,13 +162,13 @@ def four(input):
 
 	# You may need to create a list of numbers from 0 to i, take a look at help(range).
 
-def five(input):
-    x = range(len(input[-1:]))
-    for number in input: 
-        	for number in x:
-            	number * x 
+# def five(input):
+#     x = range(len(input[-1:]))
+#     for number in input: 
+#         	for number in x:
+#             	number * x 
         
-	return 
+# 	return 
 
 #------------------------------------------------------------------------------------------------------------------------------------------------------------------ 
 
@@ -190,7 +190,11 @@ def five(input):
 	# How do we find the length of a container, take a look at help(len), you will also need to look at help(str) for String manipulation.
  
 def six(string, int, char):
-	return False
+    x = string.lower()
+    if x[int] == char:
+        return True
+    else:
+        return False
 
 #------------------------------------------------------------------------------------------------------------------------------------------------------------------ 
 
