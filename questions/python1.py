@@ -70,14 +70,13 @@ def one(input1, input2):
 	# No hints for this question
 
 def two(arg1):
-    x = arg1 / 3
-    y = arg1 / 5
-    
+    x = int(arg1) / 3
+    y = int(arg1) / 5
     if type(X) == int:
         return "fizz"
-    if y == int:
+    elif type(y) == int:
         return "buzz"
-    if arg1 / 3 == int and arg1 / 5 == int:
+    elif type(X) == int and type(y) == int:
         return "fizzbuzz"
     else:
         return "null"
@@ -100,8 +99,14 @@ print(two(15))
 	# How do we ignore case in a String? help(str) may offer some insight.
 
 def three(input):
-    return 0
+    x = input.lower()
+    count = 0
+    for letter in x:
+        if letter == "a" or letter == "e" or letter == "i" or letter == "o" or letter == "u":
+            count += 1
+    return count
 
+# print(three("hello dear friend!"))
 #------------------------------------------------------------------------------------------------------------------------------------------------------------------ 
 
 	# <QUESTION 4>
@@ -123,7 +128,22 @@ def three(input):
 
 
 def four(input):
-    return False
+    x = input.lower()
+    i = "ie"
+    e = "ei"
+    c = "cei"
+    if "cie" in input:
+        return False
+    elif "c" in input:
+            return True
+    elif i in input or e in input or c in input:
+        return True
+    else:
+        return False
+    
+    
+ 
+# print(four("hello"))
 
 #------------------------------------------------------------------------------------------------------------------------------------------------------------------ 
 
@@ -143,6 +163,8 @@ def four(input):
 	# You may need to create a list of numbers from 0 to i, take a look at help(range).
 
 def five(input):
+    for number in input:  
+        range(len[-1:)
 	return 1
 
 #------------------------------------------------------------------------------------------------------------------------------------------------------------------ 

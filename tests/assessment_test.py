@@ -15,19 +15,19 @@ def test_one():
 #     assert python1.two(8) == "null"
 #     assert python1.two(75) == "fizzbuzz"
 
-# def test_three():
-#     assert python1.three("Hello") == 2 
-#     assert python1.three("hEelLoooO") == 6
-#     assert python1.three("WhitEboarD") == 4
-#     assert python1.three("as") == 1
-#     assert python1.three("pass") == 1
+def test_three():
+    assert python1.three("Hello") == 2 
+    assert python1.three("hEelLoooO") == 6
+    assert python1.three("WhitEboarD") == 4
+    assert python1.three("as") == 1
+    assert python1.three("pass") == 1
 
-# def test_four():
-#     assert python1.four("ceiling") == True
-#     assert python1.four("believe") == True
-#     assert python1.four("glacier") == False
-#     assert python1.four("height") == False
-#     assert python1.four("receive") == True
+def test_four():
+    assert python1.four("ceiling") == True
+    assert python1.four("believe") == True
+    assert python1.four("glacier") == False
+    assert python1.four("height") == False
+    assert python1.four("receive") == True
 
 # def test_five():
 #     assert python1.five(1) == 1
