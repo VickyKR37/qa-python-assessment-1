@@ -251,7 +251,12 @@ def seven(inputString, char):
 	# help(int) for working with numbers and help(str) for working with Strings.
 
 def eight(arg1):
-	return 0
+    x = arg1.split(" ")
+    for digit in x:
+        digit + digit
+        return max(digit)
+
+print(eight("11 22 33"))
 
 #------------------------------------------------------------------------------------------------------------------------------------------------------------------ 
 
